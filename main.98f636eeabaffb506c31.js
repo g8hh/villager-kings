@@ -5204,7 +5204,9 @@
                 return e[e.NONE = 0] = "NONE", e[e.WHEAT = 1] = "WHEAT", e[e.BARLEY = 2] = "BARLEY", e[e.HAY = 3] = "HAY", e[e.HOP = 4] = "HOP", e[e.COTTON = 5] = "COTTON", e[e.BERRY = 6] = "BERRY", e[e.GRAPE = 7] = "GRAPE", e[e.APPLE = 8] = "APPLE", e
             }({}),
             Cu = function (e) {
-                return e[e.ALL = 0] = "全部", e[e.NONE = 1] = "无", e[e.RAW = 2] = "生食", e[e.PROCESSED = 3] = "已处理", e[e.FOOD = 4] = "食物", e[e.TOOLS = 5] = "工具", e[e.OTHER = 6] = "其它", e[e.WOODEN = 7] = "木头", e[e.METAL = 8] = "金属", e[e.STONE = 9] = "石头", e[e.ANIMAL = 10] = "动物", e[e.FUEL = 11] = "燃料", e[e.CONSUMABLE = 12] = "消耗品", e
+                                return e[e.ALL = 0] = "ALL", e[e.NONE = 1] = "NONE", e[e.RAW = 2] = "RAW", e[e.PROCESSED = 3] = "PROCESSED", e[e.FOOD = 4] = "FOOD", e[e.TOOLS = 5] = "TOOLS", e[e.OTHER = 6] = "OTHER", e[e.WOODEN = 7] = "WOODEN", e[e.METAL = 8] = "METAL", e[e.STONE = 9] = "STONE", e[e.ANIMAL = 10] = "ANIMAL", e[e.FUEL = 11] = "FUEL", e[e.CONSUMABLE = 12] = "CONSUMABLE", e
+
+//                return e[e.ALL = 0] = "全部", e[e.NONE = 1] = "无", e[e.RAW = 2] = "生食", e[e.PROCESSED = 3] = "已处理", e[e.FOOD = 4] = "食物", e[e.TOOLS = 5] = "工具", e[e.OTHER = 6] = "其它", e[e.WOODEN = 7] = "木头", e[e.METAL = 8] = "金属", e[e.STONE = 9] = "石头", e[e.ANIMAL = 10] = "动物", e[e.FUEL = 11] = "燃料", e[e.CONSUMABLE = 12] = "消耗品", e
             }({}),
             _u = function (e) {
                 return e[e.NONE = 0] = "NONE", e[e.FERTILITY = 1] = "FERTILITY", e[e.NATURE = 2] = "NATURE", e[e.TECHNOLOGY = 3] = "TECHNOLOGY", e[e.WAR = 4] = "WAR", e
