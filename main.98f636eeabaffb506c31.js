@@ -19602,7 +19602,7 @@
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.research(10) && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Research"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["研究"]))], null, null)
         }
 
         function iy(e) {
@@ -20535,7 +20535,7 @@
         }
 
         function rS(e) {
-            return so(0, [(e()(), Yi(0, 0, null, null, 32, "div", [["id", "wrapper"]], null, null, null, null, null)), (e()(), Yi(1, 0, null, null, 2, "div", [["id", "title"]], null, null, null, null, null)), (e()(), Yi(2, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["Religion"])), (e()(), Yi(4, 0, null, null, 9, "div", [], null, null, null, null, null)), (e()(), Yi(5, 0, null, null, 1, null, null, null, null, null, null, null)), (e()(), lo(-1, null, ["Faith"])), (e()(), Yi(7, 0, null, null, 1, "app-icon", [["class", "faith"]], null, null, null, of , lf)), Ml(8, 114688, null, 0, rf, [], {
+            return so(0, [(e()(), Yi(0, 0, null, null, 32, "div", [["id", "wrapper"]], null, null, null, null, null)), (e()(), Yi(1, 0, null, null, 2, "div", [["id", "title"]], null, null, null, null, null)), (e()(), Yi(2, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["宗教"])), (e()(), Yi(4, 0, null, null, 9, "div", [], null, null, null, null, null)), (e()(), Yi(5, 0, null, null, 1, null, null, null, null, null, null, null)), (e()(), lo(-1, null, ["信仰"])), (e()(), Yi(7, 0, null, null, 1, "app-icon", [["class", "faith"]], null, null, null, of , lf)), Ml(8, 114688, null, 0, rf, [], {
                 name: [0, "name"],
                 path: [1, "path"]
             }, null), (e()(), Yi(9, 0, null, null, 1, null, null, null, null, null, null, null)), (e()(), lo(-1, null, [":"])), (e()(), lo(11, null, [" ", "/", " "])), (e()(), ji(16777216, null, null, 1, null, zy)), Ml(13, 16384, null, 0, Ds, [Or, hn], {
@@ -20550,7 +20550,7 @@
                 title: [2, "title"]
             }, null), (e()(), Yi(25, 0, null, null, 2, "div", [], null, null, null, null, null)), (e()(), ji(16777216, null, null, 1, null, Ky)), Ml(27, 278528, null, 0, Ns, [Or, hn, Br], {
                 ngForOf: [0, "ngForOf"]
-            }, null), (e()(), Yi(28, 0, null, null, 4, "div", [["class", "column"], ["id", "religions"]], null, null, null, null, null)), (e()(), Yi(29, 0, null, null, 1, "span", [["class", "tableTitle"]], null, null, null, null, null)), (e()(), lo(-1, null, ["Religions"])), (e()(), ji(16777216, null, null, 1, null, nS)), Ml(32, 278528, null, 0, Ns, [Or, hn, Br], {
+            }, null), (e()(), Yi(28, 0, null, null, 4, "div", [["class", "column"], ["id", "religions"]], null, null, null, null, null)), (e()(), Yi(29, 0, null, null, 1, "span", [["class", "tableTitle"]], null, null, null, null, null)), (e()(), lo(-1, null, ["宗教"])), (e()(), ji(16777216, null, null, 1, null, nS)), Ml(32, 278528, null, 0, Ns, [Or, hn, Br], {
                 ngForOf: [0, "ngForOf"]
             }, null)], function (e, t) {
                 var n = t.component;
@@ -20756,7 +20756,7 @@
         }
 
         function vS(e) {
-            return so(0, [(e()(), Yi(0, 0, null, null, 4, "div", [], null, null, null, null, null)), (e()(), lo(-1, null, ["Weather forecast: "])), (e()(), Yi(2, 0, null, null, 2, "div", [["id", "forecast"]], null, null, null, null, null)), (e()(), ji(16777216, null, null, 1, null, gS)), Ml(4, 278528, null, 0, Ns, [Or, hn, Br], {
+            return so(0, [(e()(), Yi(0, 0, null, null, 4, "div", [], null, null, null, null, null)), (e()(), lo(-1, null, ["天气预报: "])), (e()(), Yi(2, 0, null, null, 2, "div", [["id", "forecast"]], null, null, null, null, null)), (e()(), ji(16777216, null, null, 1, null, gS)), Ml(4, 278528, null, 0, Ns, [Or, hn, Br], {
                 ngForOf: [0, "ngForOf"]
             }, null)], function (e, t) {
                 e(t, 4, 0, t.component.getForecast())
@@ -20764,10 +20764,10 @@
         }
 
         function mS(e) {
-            return so(0, [kl(0, js, [Kr]), (e()(), Yi(1, 0, null, null, 15, "div", [["id", "wrapper"]], null, null, null, null, null)), (e()(), Yi(2, 0, null, null, 2, "div", [["id", "title"]], null, null, null, null, null)), (e()(), Yi(3, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["Weather"])), (e()(), lo(5, null, [" Weather: ", " "])), (e()(), Yi(6, 0, null, null, 1, "app-icon", [], null, null, null, of , lf)), Ml(7, 114688, null, 0, rf, [], {
+            return so(0, [kl(0, js, [Kr]), (e()(), Yi(1, 0, null, null, 15, "div", [["id", "wrapper"]], null, null, null, null, null)), (e()(), Yi(2, 0, null, null, 2, "div", [["id", "title"]], null, null, null, null, null)), (e()(), Yi(3, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["天气"])), (e()(), lo(5, null, [" 天气: ", " "])), (e()(), Yi(6, 0, null, null, 1, "app-icon", [], null, null, null, of , lf)), Ml(7, 114688, null, 0, rf, [], {
                 name: [0, "name"],
                 path: [1, "path"]
-            }, null), (e()(), Yi(8, 0, null, null, 0, "br", [], null, null, null, null, null)), (e()(), lo(9, null, [" Temperature: ", ""])), no(10, 2), (e()(), ji(16777216, null, null, 1, null, aS)), Ml(12, 16384, null, 0, Ds, [Or, hn], {
+            }, null), (e()(), Yi(8, 0, null, null, 0, "br", [], null, null, null, null, null)), (e()(), lo(9, null, [" 温度: ", ""])), no(10, 2), (e()(), ji(16777216, null, null, 1, null, aS)), Ml(12, 16384, null, 0, Ds, [Or, hn], {
                 ngIf: [0, "ngIf"]
             }, null), (e()(), ji(16777216, null, null, 1, null, cS)), Ml(14, 16384, null, 0, Ds, [Or, hn], {
                 ngIf: [0, "ngIf"]
@@ -21546,7 +21546,7 @@
                 links: 1
             }), $l(603979776, 4, {
                 linksWithHrefs: 1
-            }), (e()(), lo(-1, null, ["Fort"]))], function (e, t) {
+            }), (e()(), lo(-1, null, ["要塞"]))], function (e, t) {
                 e(t, 1, 0, "/village/fort"), e(t, 2, 0, "active")
             }, function (e, t) {
                 e(t, 0, 0, El(t, 1).target, El(t, 1).href)
@@ -21584,7 +21584,7 @@
                 links: 1
             }), $l(603979776, 10, {
                 linksWithHrefs: 1
-            }), (e()(), lo(-1, null, ["Mountains"]))], function (e, t) {
+            }), (e()(), lo(-1, null, ["山地"]))], function (e, t) {
                 e(t, 1, 0, "/village/mountains"), e(t, 2, 0, "active")
             }, function (e, t) {
                 e(t, 0, 0, El(t, 1).target, El(t, 1).href)
@@ -21622,7 +21622,7 @@
                 links: 1
             }), $l(603979776, 14, {
                 linksWithHrefs: 1
-            }), (e()(), lo(-1, null, ["Sea"]))], function (e, t) {
+            }), (e()(), lo(-1, null, ["海洋"]))], function (e, t) {
                 e(t, 1, 0, "/village/sea"), e(t, 2, 0, "active")
             }, function (e, t) {
                 e(t, 0, 0, El(t, 1).target, El(t, 1).href)
@@ -24513,56 +24513,56 @@
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleDemolishMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Demolish"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["拆除"]))], null, null)
         }
 
         function _b(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [["class", "off"]], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleDemolishMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Stop"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["停止"]))], null, null)
         }
 
         function Ib(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleArrangeMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Arrange"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["排列"]))], null, null)
         }
 
         function Ab(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [["class", "off"]], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleArrangeMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Stop"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["停止"]))], null, null)
         }
 
         function wb(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleCombineMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Combine"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["合并"]))], null, null)
         }
 
         function Nb(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [["class", "off"]], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleCombineMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Stop"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["停止"]))], null, null)
         }
 
         function Pb(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleSplitMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Split"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["分离"]))], null, null)
         }
 
         function Db(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [["class", "off"]], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleSplitMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Stop"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["停止"]))], null, null)
         }
 
         function Mb(e) {
@@ -24745,56 +24745,56 @@
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleDemolishMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Demolish"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["拆除"]))], null, null)
         }
 
         function Yb(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [["class", "off"]], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleDemolishMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Stop"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["停止"]))], null, null)
         }
 
         function zb(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleArrangeMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Arrange"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["排列"]))], null, null)
         }
 
         function Kb(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [["class", "off"]], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleArrangeMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Stop"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["停止"]))], null, null)
         }
 
         function qb(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleCombineMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Combine"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["合并"]))], null, null)
         }
 
         function Qb(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [["class", "off"]], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleCombineMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Stop"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["停止"]))], null, null)
         }
 
         function $b(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleSplitMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Split"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["分离"]))], null, null)
         }
 
         function Zb(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [["class", "off"]], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleSplitMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Stop"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["停止"]))], null, null)
         }
 
         function Xb(e) {
@@ -24966,56 +24966,56 @@
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleDemolishMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Demolish"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["拆除"]))], null, null)
         }
 
         function aT(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [["class", "off"]], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleDemolishMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Stop"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["停止"]))], null, null)
         }
 
         function cT(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleArrangeMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Arrange"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["排列"]))], null, null)
         }
 
         function pT(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [["class", "off"]], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleArrangeMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Stop"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["停止"]))], null, null)
         }
 
         function hT(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleCombineMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Combine"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["合并"]))], null, null)
         }
 
         function dT(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [["class", "off"]], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleCombineMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Stop"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["停止"]))], null, null)
         }
 
         function fT(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleSplitMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Split"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["分离"]))], null, null)
         }
 
         function gT(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [["class", "off"]], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleSplitMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Stop"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["停止"]))], null, null)
         }
 
         function vT(e) {
@@ -25197,56 +25197,56 @@
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleDemolishMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Demolish"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["拆除"]))], null, null)
         }
 
         function wT(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [["class", "off"]], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleDemolishMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Stop"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["停止"]))], null, null)
         }
 
         function NT(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleArrangeMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Arrange"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["排列"]))], null, null)
         }
 
         function PT(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [["class", "off"]], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleArrangeMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Stop"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["停止"]))], null, null)
         }
 
         function DT(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleCombineMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Combine"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["合并"]))], null, null)
         }
 
         function MT(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [["class", "off"]], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleCombineMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Stop"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["停止"]))], null, null)
         }
 
         function kT(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleSplitMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Split"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["分离"]))], null, null)
         }
 
         function LT(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [["class", "off"]], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleSplitMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Stop"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["停止"]))], null, null)
         }
 
         function xT(e) {
@@ -25966,7 +25966,7 @@
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleArrangeMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Arrange"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["排列"]))], null, null)
         }
 
         function PR(e) {
@@ -25980,21 +25980,21 @@
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleCombineMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Combine"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["合并"]))], null, null)
         }
 
         function MR(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [["class", "off"]], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleCombineMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Stop"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["停止"]))], null, null)
         }
 
         function kR(e) {
             return so(0, [(e()(), Yi(0, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.toggleSplitMode() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Split"]))], null, null)
+            }, null, null)), (e()(), lo(-1, null, ["分离"]))], null, null)
         }
 
         function LR(e) {
@@ -27788,7 +27788,7 @@
                 links: 1
             }), $l(603979776, 6, {
                 linksWithHrefs: 1
-            }), (e()(), lo(-1, null, ["Management"]))], function (e, t) {
+            }), (e()(), lo(-1, null, ["管理"]))], function (e, t) {
                 e(t, 1, 0, "/management"), e(t, 2, 0, "active")
             }, function (e, t) {
                 e(t, 0, 0, El(t, 1).target, El(t, 1).href)
@@ -27807,7 +27807,7 @@
                 links: 1
             }), $l(603979776, 8, {
                 linksWithHrefs: 1
-            }), (e()(), lo(-1, null, ["Crafting"]))], function (e, t) {
+            }), (e()(), lo(-1, null, ["工艺"]))], function (e, t) {
                 e(t, 1, 0, "/crafting"), e(t, 2, 0, "active")
             }, function (e, t) {
                 e(t, 0, 0, El(t, 1).target, El(t, 1).href)
@@ -27826,7 +27826,7 @@
                 links: 1
             }), $l(603979776, 10, {
                 linksWithHrefs: 1
-            }), (e()(), lo(-1, null, ["Research"]))], function (e, t) {
+            }), (e()(), lo(-1, null, ["研究"]))], function (e, t) {
                 e(t, 1, 0, "/research"), e(t, 2, 0, "active")
             }, function (e, t) {
                 e(t, 0, 0, El(t, 1).target, El(t, 1).href)
@@ -27845,7 +27845,7 @@
                 links: 1
             }), $l(603979776, 12, {
                 linksWithHrefs: 1
-            }), (e()(), lo(-1, null, ["Market"]))], function (e, t) {
+            }), (e()(), lo(-1, null, ["市场"]))], function (e, t) {
                 e(t, 1, 0, "/market"), e(t, 2, 0, "active")
             }, function (e, t) {
                 e(t, 0, 0, El(t, 1).target, El(t, 1).href)
@@ -27864,7 +27864,7 @@
                 links: 1
             }), $l(603979776, 14, {
                 linksWithHrefs: 1
-            }), (e()(), lo(-1, null, ["Army"]))], function (e, t) {
+            }), (e()(), lo(-1, null, ["军队"]))], function (e, t) {
                 e(t, 1, 0, "/army"), e(t, 2, 0, "active")
             }, function (e, t) {
                 e(t, 0, 0, El(t, 1).target, El(t, 1).href)
@@ -27883,7 +27883,7 @@
                 links: 1
             }), $l(603979776, 16, {
                 linksWithHrefs: 1
-            }), (e()(), lo(-1, null, ["Religion"]))], function (e, t) {
+            }), (e()(), lo(-1, null, ["宗教"]))], function (e, t) {
                 e(t, 1, 0, "/religion"), e(t, 2, 0, "active")
             }, function (e, t) {
                 e(t, 0, 0, El(t, 1).target, El(t, 1).href)
@@ -27902,7 +27902,7 @@
                 links: 1
             }), $l(603979776, 18, {
                 linksWithHrefs: 1
-            }), (e()(), lo(-1, null, ["Weather"]))], function (e, t) {
+            }), (e()(), lo(-1, null, ["天气"]))], function (e, t) {
                 e(t, 1, 0, "/weather"), e(t, 2, 0, "active")
             }, function (e, t) {
                 e(t, 0, 0, El(t, 1).target, El(t, 1).href)
@@ -28023,7 +28023,7 @@
         function tI(e) {
             return so(0, [$l(402653184, 1, {
                 scrollRef: 0
-            }), (e()(), Yi(1, 0, null, null, 9, "div", [["id", "wrapper"]], null, null, null, null, null)), (e()(), Yi(2, 0, null, null, 4, "div", [["class", "title"]], null, null, null, null, null)), (e()(), Yi(3, 0, null, null, 1, "span", [["id", "title-text"]], null, null, null, null, null)), (e()(), lo(-1, null, ["Log"])), (e()(), Yi(5, 0, null, null, 1, "button", [["id", "clear-button"]], null, [[null, "click"]], function (e, t, n) {
+            }), (e()(), Yi(1, 0, null, null, 9, "div", [["id", "wrapper"]], null, null, null, null, null)), (e()(), Yi(2, 0, null, null, 4, "div", [["class", "title"]], null, null, null, null, null)), (e()(), Yi(3, 0, null, null, 1, "span", [["id", "title-text"]], null, null, null, null, null)), (e()(), lo(-1, null, ["日志"])), (e()(), Yi(5, 0, null, null, 1, "button", [["id", "clear-button"]], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.clearLogs() && r), r
             }, null, null)), (e()(), lo(-1, null, ["clear"])), (e()(), Yi(7, 0, [[1, 0], ["scroll", 1]], null, 3, "div", [["id", "log"]], null, null, null, null, null)), (e()(), Yi(8, 0, null, null, 2, "ul", [], null, null, null, null, null)), (e()(), ji(16777216, null, null, 1, null, eI)), Ml(10, 278528, null, 0, Ns, [Or, hn, Br], {
