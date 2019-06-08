@@ -5204,7 +5204,7 @@
                 return e[e.NONE = 0] = "NONE", e[e.WHEAT = 1] = "WHEAT", e[e.BARLEY = 2] = "BARLEY", e[e.HAY = 3] = "HAY", e[e.HOP = 4] = "HOP", e[e.COTTON = 5] = "COTTON", e[e.BERRY = 6] = "BERRY", e[e.GRAPE = 7] = "GRAPE", e[e.APPLE = 8] = "APPLE", e
             }({}),
             Cu = function (e) {
-                return e[e.ALL = 0] = "ALL", e[e.NONE = 1] = "NONE", e[e.RAW = 2] = "RAW", e[e.PROCESSED = 3] = "PROCESSED", e[e.FOOD = 4] = "FOOD", e[e.TOOLS = 5] = "TOOLS", e[e.OTHER = 6] = "OTHER", e[e.WOODEN = 7] = "WOODEN", e[e.METAL = 8] = "METAL", e[e.STONE = 9] = "STONE", e[e.ANIMAL = 10] = "ANIMAL", e[e.FUEL = 11] = "FUEL", e[e.CONSUMABLE = 12] = "CONSUMABLE", e
+                return e[e.ALL = 0] = "全部", e[e.NONE = 1] = "无", e[e.RAW = 2] = "生食", e[e.PROCESSED = 3] = "已处理", e[e.FOOD = 4] = "食物", e[e.TOOLS = 5] = "工具", e[e.OTHER = 6] = "其它", e[e.WOODEN = 7] = "木头", e[e.METAL = 8] = "金属", e[e.STONE = 9] = "石头", e[e.ANIMAL = 10] = "动物", e[e.FUEL = 11] = "燃料", e[e.CONSUMABLE = 12] = "消耗品", e
             }({}),
             _u = function (e) {
                 return e[e.NONE = 0] = "NONE", e[e.FERTILITY = 1] = "FERTILITY", e[e.NATURE = 2] = "NATURE", e[e.TECHNOLOGY = 3] = "TECHNOLOGY", e[e.WAR = 4] = "WAR", e
@@ -5423,7 +5423,7 @@
                     left: "100px"
                 }
             }, {
-                text: "That's all here for now let's move into the Forest region<br> using top menu and continue the tutorial there",
+                text: "现在就讲到这里，让我们进入森林地区<br> 使用顶部菜单并在那里继续教程",
                 position: {
                     width: "400px",
                     top: "180px",
@@ -5474,7 +5474,7 @@
                     left: "200px"
                 }
             }, {
-                text: "In the header you can highlight up to 7 resources to know their amounts in any tab of the game",
+                text: "在头部，你可以高亮显示多达7个资源，以在游戏的任何标签了解它们的数量",
                 position: {
                     width: "400px",
                     top: "30px",
@@ -17327,7 +17327,7 @@
         }
 
         function zg(e) {
-            return so(0, [(e()(), Yi(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["permanent"]))], null, null)
+            return so(0, [(e()(), Yi(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["永久"]))], null, null)
         }
 
         function Kg(e) {
@@ -17366,7 +17366,7 @@
         }
 
         function Zg(e) {
-            return so(0, [(e()(), Yi(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["permanent"]))], null, null)
+            return so(0, [(e()(), Yi(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["永久"]))], null, null)
         }
 
         function Xg(e) {
@@ -17393,20 +17393,20 @@
             }, null, null)), (e()(), Yi(12, 0, null, null, 0, "input", [["type", "checkbox"]], [[8, "checked", 0]], [[null, "change"]], function (e, t, n) {
                 var r = !0;
                 return "change" === t && (r = !1 !== e.component.updateFoodNutrition() && r), r
-            }, null, null)), (e()(), lo(-1, null, [" show total food nutrition in village tab "])), (e()(), Yi(14, 0, null, null, 6, "div", [], null, null, null, null, null)), (e()(), Yi(15, 0, null, null, 1, "span", [["class", "label"]], null, null, null, null, null)), (e()(), lo(16, null, ["clothes: ", ""])), (e()(), Yi(17, 0, null, null, 1, "div", [["class", "slidecontainer"]], null, null, null, null, null)), (e()(), Yi(18, 0, null, null, 0, "input", [["class", "slider"], ["max", "4"], ["min", "1"], ["type", "range"], ["value", "2"]], [[8, "value", 0]], [[null, "change"]], function (e, t, n) {
+            }, null, null)), (e()(), lo(-1, null, [" 显示村庄标签中的总食物营养 "])), (e()(), Yi(14, 0, null, null, 6, "div", [], null, null, null, null, null)), (e()(), Yi(15, 0, null, null, 1, "span", [["class", "label"]], null, null, null, null, null)), (e()(), lo(16, null, ["clothes: ", ""])), (e()(), Yi(17, 0, null, null, 1, "div", [["class", "slidecontainer"]], null, null, null, null, null)), (e()(), Yi(18, 0, null, null, 0, "input", [["class", "slider"], ["max", "4"], ["min", "1"], ["type", "range"], ["value", "2"]], [[8, "value", 0]], [[null, "change"]], function (e, t, n) {
                 var r = !0;
                 return "change" === t && (r = !1 !== e.component.changeClothesValue(n) && r), r
             }, null, null)), (e()(), Yi(19, 0, null, null, 0, "input", [["type", "checkbox"]], [[8, "checked", 0]], [[null, "change"]], function (e, t, n) {
                 var r = !0;
                 return "change" === t && (r = !1 !== e.component.updateFurClothes() && r), r
-            }, null, null)), (e()(), lo(-1, null, [" allow fur when no clothes available "])), (e()(), Yi(21, 0, null, null, 1, "span", [["class", "label"]], null, null, null, null, null)), (e()(), lo(22, null, ["alcohol: ", ""])), (e()(), Yi(23, 0, null, null, 1, "div", [["class", "slidecontainer"]], null, null, null, null, null)), (e()(), Yi(24, 0, null, null, 0, "input", [["class", "slider"], ["max", "4"], ["min", "1"], ["type", "range"], ["value", "1"]], [[8, "value", 0]], [[null, "change"]], function (e, t, n) {
+            }, null, null)), (e()(), lo(-1, null, [" 没有衣服的时候允许穿皮草 "])), (e()(), Yi(21, 0, null, null, 1, "span", [["class", "label"]], null, null, null, null, null)), (e()(), lo(22, null, ["alcohol: ", ""])), (e()(), Yi(23, 0, null, null, 1, "div", [["class", "slidecontainer"]], null, null, null, null, null)), (e()(), Yi(24, 0, null, null, 0, "input", [["class", "slider"], ["max", "4"], ["min", "1"], ["type", "range"], ["value", "1"]], [[8, "value", 0]], [[null, "change"]], function (e, t, n) {
                 var r = !0;
                 return "change" === t && (r = !1 !== e.component.changeAlcoholValue(n) && r), r
             }, null, null)), (e()(), Yi(25, 0, null, null, 0, "br", [], null, null, null, null, null)), (e()(), ji(16777216, null, null, 1, null, Vg)), Ml(27, 16384, null, 0, Ds, [Or, hn], {
                 ngIf: [0, "ngIf"]
-            }, null), (e()(), Yi(28, 0, null, null, 0, "br", [], null, null, null, null, null)), (e()(), Yi(29, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["建筑效果"])), (e()(), Yi(31, 0, null, null, 14, "div", [["id", "buildingEffects"]], null, null, null, null, null)), (e()(), Yi(32, 0, null, null, 10, "div", [["class", "headers"]], null, null, null, null, null)), (e()(), Yi(33, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["#"])), (e()(), Yi(35, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["name"])), (e()(), Yi(37, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["building"])), (e()(), Yi(39, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["effect"])), (e()(), Yi(41, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["duration"])), (e()(), Yi(43, 0, null, null, 2, "div", [["class", "rows"]], null, null, null, null, null)), (e()(), ji(16777216, null, null, 1, null, Kg)), Ml(45, 278528, null, 0, Ns, [Or, hn, Br], {
+            }, null), (e()(), Yi(28, 0, null, null, 0, "br", [], null, null, null, null, null)), (e()(), Yi(29, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["建筑效果"])), (e()(), Yi(31, 0, null, null, 14, "div", [["id", "buildingEffects"]], null, null, null, null, null)), (e()(), Yi(32, 0, null, null, 10, "div", [["class", "headers"]], null, null, null, null, null)), (e()(), Yi(33, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["#"])), (e()(), Yi(35, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["名称"])), (e()(), Yi(37, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["建筑"])), (e()(), Yi(39, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["效果"])), (e()(), Yi(41, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["持续时间"])), (e()(), Yi(43, 0, null, null, 2, "div", [["class", "rows"]], null, null, null, null, null)), (e()(), ji(16777216, null, null, 1, null, Kg)), Ml(45, 278528, null, 0, Ns, [Or, hn, Br], {
                 ngForOf: [0, "ngForOf"]
-            }, null), (e()(), Yi(46, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["军队效果"])), (e()(), Yi(48, 0, null, null, 14, "div", [["id", "armyEffects"]], null, null, null, null, null)), (e()(), Yi(49, 0, null, null, 10, "div", [["class", "headers"]], null, null, null, null, null)), (e()(), Yi(50, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["#"])), (e()(), Yi(52, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["name"])), (e()(), Yi(54, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["building"])), (e()(), Yi(56, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["effect"])), (e()(), Yi(58, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["duration"])), (e()(), Yi(60, 0, null, null, 2, "div", [["class", "rows"]], null, null, null, null, null)), (e()(), ji(16777216, null, null, 1, null, Xg)), Ml(62, 278528, null, 0, Ns, [Or, hn, Br], {
+            }, null), (e()(), Yi(46, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["军队效果"])), (e()(), Yi(48, 0, null, null, 14, "div", [["id", "armyEffects"]], null, null, null, null, null)), (e()(), Yi(49, 0, null, null, 10, "div", [["class", "headers"]], null, null, null, null, null)), (e()(), Yi(50, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["#"])), (e()(), Yi(52, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["名称"])), (e()(), Yi(54, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["建筑"])), (e()(), Yi(56, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["效果"])), (e()(), Yi(58, 0, null, null, 1, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["持续时间"])), (e()(), Yi(60, 0, null, null, 2, "div", [["class", "rows"]], null, null, null, null, null)), (e()(), ji(16777216, null, null, 1, null, Xg)), Ml(62, 278528, null, 0, Ns, [Or, hn, Br], {
                 ngForOf: [0, "ngForOf"]
             }, null)], function (e, t) {
                 var n = t.component;
@@ -18191,7 +18191,7 @@
                         return t.id === e
                     });
                     if (r && !t) {
-                        this.modalService.open(mu.CONFIRM), this.modalService.setModalText("Are you sure you want to cancel crafting " + Au.prepareResourceName(r.recipe.resource) + "?");
+                        this.modalService.open(mu.CONFIRM), this.modalService.setModalText("你确定要取消制作 " + Au.prepareResourceName(r.recipe.resource) + " 吗?");
                         var i = this.modalService.registerForConfirmation().subscribe(function (t) {
                             t && (n.queue = n.queue.filter(function (t) {
                                 return t.id !== e
@@ -20467,7 +20467,7 @@
         }
 
         function Zy(e) {
-            return so(0, [(e()(), Yi(0, 0, null, null, 1, "div", [], null, null, null, null, null)), (e()(), lo(-1, null, ["offering:"]))], null, null)
+            return so(0, [(e()(), Yi(0, 0, null, null, 1, "div", [], null, null, null, null, null)), (e()(), lo(-1, null, ["提供:"]))], null, null)
         }
 
         function Xy(e) {
@@ -20540,11 +20540,11 @@
                 path: [1, "path"]
             }, null), (e()(), Yi(9, 0, null, null, 1, null, null, null, null, null, null, null)), (e()(), lo(-1, null, [":"])), (e()(), lo(11, null, [" ", "/", " "])), (e()(), ji(16777216, null, null, 1, null, zy)), Ml(13, 16384, null, 0, Ds, [Or, hn], {
                 ngIf: [0, "ngIf"]
-            }, null), (e()(), Yi(14, 0, null, null, 4, "div", [], null, null, null, null, null)), (e()(), lo(-1, null, [" Faith shield "])), (e()(), Yi(16, 0, null, null, 1, "app-icon", [["class", "prayer"]], null, null, null, of , lf)), Ml(17, 114688, null, 0, rf, [], {
+            }, null), (e()(), Yi(14, 0, null, null, 4, "div", [], null, null, null, null, null)), (e()(), lo(-1, null, [" 信仰之盾 "])), (e()(), Yi(16, 0, null, null, 1, "app-icon", [["class", "prayer"]], null, null, null, of , lf)), Ml(17, 114688, null, 0, rf, [], {
                 name: [0, "name"],
                 path: [1, "path"],
                 title: [2, "title"]
-            }, null), (e()(), lo(18, null, [" : ", " "])), (e()(), Yi(19, 0, null, null, 13, "div", [["id", "table"]], null, null, null, null, null)), (e()(), Yi(20, 0, null, null, 7, "div", [["class", "column"], ["id", "prayers"]], null, null, null, null, null)), (e()(), Yi(21, 0, null, null, 3, "span", [["class", "tableTitle"]], null, null, null, null, null)), (e()(), lo(-1, null, [" Prayers "])), (e()(), Yi(23, 0, null, null, 1, "app-icon", [], null, null, null, of , lf)), Ml(24, 114688, null, 0, rf, [], {
+            }, null), (e()(), lo(18, null, [" : ", " "])), (e()(), Yi(19, 0, null, null, 13, "div", [["id", "table"]], null, null, null, null, null)), (e()(), Yi(20, 0, null, null, 7, "div", [["class", "column"], ["id", "prayers"]], null, null, null, null, null)), (e()(), Yi(21, 0, null, null, 3, "span", [["class", "tableTitle"]], null, null, null, null, null)), (e()(), lo(-1, null, [" 祈祷 "])), (e()(), Yi(23, 0, null, null, 1, "app-icon", [], null, null, null, of , lf)), Ml(24, 114688, null, 0, rf, [], {
                 name: [0, "name"],
                 path: [1, "path"],
                 title: [2, "title"]
@@ -20816,7 +20816,7 @@
         }
 
         function TS(e) {
-            return so(0, [(e()(), Yi(0, 0, null, null, 1, "div", [], null, null, null, null, null)), (e()(), lo(-1, null, [" Usages: unlimited "]))], null, null)
+            return so(0, [(e()(), Yi(0, 0, null, null, 1, "div", [], null, null, null, null, null)), (e()(), lo(-1, null, [" 使用: 无限的 "]))], null, null)
         }
 
         function RS(e) {
@@ -20855,7 +20855,7 @@
         }
 
         function IS(e) {
-            return so(0, [(e()(), Yi(0, 0, null, null, 1, "div", [], null, null, null, null, null)), (e()(), lo(-1, null, [" Usages: unlimited "]))], null, null)
+            return so(0, [(e()(), Yi(0, 0, null, null, 1, "div", [], null, null, null, null, null)), (e()(), lo(-1, null, [" 使用: 无限 "]))], null, null)
         }
 
         function AS(e) {
@@ -20917,10 +20917,10 @@
         }
 
         function MS(e) {
-            return so(0, [(e()(), Yi(0, 0, null, null, 16, "div", [["id", "wrapper"]], null, null, null, null, null)), (e()(), Yi(1, 0, null, null, 1, "span", [["id", "title"]], null, null, null, null, null)), (e()(), lo(-1, null, ["Royal perks"])), (e()(), Yi(3, 0, null, null, 0, "br", [], null, null, null, null, null)), (e()(), Yi(4, 0, null, null, 6, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["You have "])), (e()(), Yi(6, 0, null, null, 1, "span", [["class", "bold"]], null, null, null, null, null)), (e()(), lo(7, null, ["", ""])), (e()(), lo(-1, null, [" royal points."])), (e()(), Yi(9, 0, null, null, 0, "br", [], null, null, null, null, null)), (e()(), lo(-1, null, [" You can use them to acquire special upgrades."])), (e()(), Yi(11, 0, null, null, 2, "div", [], null, null, null, null, null)), (e()(), Yi(12, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
+            return so(0, [(e()(), Yi(0, 0, null, null, 16, "div", [["id", "wrapper"]], null, null, null, null, null)), (e()(), Yi(1, 0, null, null, 1, "span", [["id", "title"]], null, null, null, null, null)), (e()(), lo(-1, null, ["皇家特权"])), (e()(), Yi(3, 0, null, null, 0, "br", [], null, null, null, null, null)), (e()(), Yi(4, 0, null, null, 6, "span", [], null, null, null, null, null)), (e()(), lo(-1, null, ["你有 "])), (e()(), Yi(6, 0, null, null, 1, "span", [["class", "bold"]], null, null, null, null, null)), (e()(), lo(7, null, ["", ""])), (e()(), lo(-1, null, [" 皇家点."])), (e()(), Yi(9, 0, null, null, 0, "br", [], null, null, null, null, null)), (e()(), lo(-1, null, [" 您可以使用它们获取特殊升级。"])), (e()(), Yi(11, 0, null, null, 2, "div", [], null, null, null, null, null)), (e()(), Yi(12, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.buyRoyalPoints() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Buy Royal points"])), (e()(), Yi(14, 0, null, null, 2, "div", [], null, null, null, null, null)), (e()(), ji(16777216, null, null, 1, null, DS)), Ml(16, 278528, null, 0, Ns, [Or, hn, Br], {
+            }, null, null)), (e()(), lo(-1, null, ["购买皇家点"])), (e()(), Yi(14, 0, null, null, 2, "div", [], null, null, null, null, null)), (e()(), ji(16777216, null, null, 1, null, DS)), Ml(16, 278528, null, 0, Ns, [Or, hn, Br], {
                 ngForOf: [0, "ngForOf"]
             }, null)], function (e, t) {
                 e(t, 16, 0, t.component.getRoyalPerks())
@@ -21565,7 +21565,7 @@
                 links: 1
             }), $l(603979776, 8, {
                 linksWithHrefs: 1
-            }), (e()(), lo(-1, null, ["Field"]))], function (e, t) {
+            }), (e()(), lo(-1, null, ["田野"]))], function (e, t) {
                 e(t, 1, 0, "/village/field"), e(t, 2, 0, "active")
             }, function (e, t) {
                 e(t, 0, 0, El(t, 1).target, El(t, 1).href)
@@ -21603,7 +21603,7 @@
                 links: 1
             }), $l(603979776, 12, {
                 linksWithHrefs: 1
-            }), (e()(), lo(-1, null, ["Plateau"]))], function (e, t) {
+            }), (e()(), lo(-1, null, ["高原"]))], function (e, t) {
                 e(t, 1, 0, "/village/plateau"), e(t, 2, 0, "active")
             }, function (e, t) {
                 e(t, 0, 0, El(t, 1).target, El(t, 1).href)
@@ -21953,7 +21953,7 @@
                 }, t.prototype.getLine = function (e) {
                     switch (e) {
                         case JS.FIRST:
-                            return $E.textValue("occupants: " + this.occupants + "/" + this.maxSize);
+                            return $E.textValue("可居住: " + this.occupants + "/" + this.maxSize);
                         case JS.SECOND:
                             return $E.progressValue(this.occupants < this.maxSize ? this.progress : -1);
                         case JS.THIRD:
@@ -21982,7 +21982,7 @@
                     }
                     return this.resourcesService.decreasePopulationCap(this.maxSize), !0
                 }, t.prototype.getDetails = function () {
-                    return "occupants: " + this.occupants + "/" + this.maxSize + "<br>food nutrition: " + Au.round(this.food, 2) + "<br>fuel: " + Au.round(this.fuel, 2) + "<br>clothes: " + Au.round(this.clothes, 2) + "<br>" + e.prototype.getDetails.call(this)
+                    return "可居住: " + this.occupants + "/" + this.maxSize + "<br>食品营养: " + Au.round(this.food, 2) + "<br>r燃料: " + Au.round(this.fuel, 2) + "<br>衣服: " + Au.round(this.clothes, 2) + "<br>" + e.prototype.getDetails.call(this)
                 }, t.prototype.hasDetails = function () {
                     return !0
                 }, t.prototype.stopProduction = function () {}, t.prototype.startProduction = function () {
@@ -22422,7 +22422,7 @@
                         else if (this.mode === yO.SWITCH_TO_RESEARCH) this.mode = yO.CRAFT, this.status = null !== this.recipe ? gO.CRAFTING : gO.NO_CRAFTING;
                         else if (this.mode === yO.CRAFT)
                             if (this.recipe) {
-                                this.modalService.open(mu.CONFIRM), this.modalService.setModalText("Workshop will switch to research after finishing current craft.");
+                                this.modalService.open(mu.CONFIRM), this.modalService.setModalText("工作台将在完成现有工艺后转入研究。");
                                 var n = this.modalService.registerForConfirmation().subscribe(function (e) {
                                     n.unsubscribe(), e && (t.mode = yO.SWITCH_TO_RESEARCH)
                                 })
@@ -24655,7 +24655,7 @@
             }), (e()(), Yi(2, 0, null, null, 57, "div", [["id", "wrapper"]], null, null, null, null, null)), (e()(), Yi(3, 0, null, null, 2, "div", [["id", "top-menu"]], null, null, null, null, null)), (e()(), Yi(4, 0, null, null, 1, "app-top-menu", [], null, null, null, GE, kE)), Ml(5, 114688, null, 0, ME, [Eg], null, null), (e()(), Yi(6, 0, null, null, 53, "div", [["id", "content"]], null, null, null, null, null)), (e()(), Yi(7, 0, null, null, 27, "div", [["id", "buttons"]], null, null, null, null, null)), (e()(), Yi(8, 0, null, null, 1, "button", [], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.openBuildModal() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["Build"])), (e()(), ji(16777216, null, null, 1, null, Cb)), Ml(11, 16384, null, 0, Ds, [Or, hn], {
+            }, null, null)), (e()(), lo(-1, null, ["建造"])), (e()(), ji(16777216, null, null, 1, null, Cb)), Ml(11, 16384, null, 0, Ds, [Or, hn], {
                 ngIf: [0, "ngIf"]
             }, null), (e()(), ji(16777216, null, null, 1, null, _b)), Ml(13, 16384, null, 0, Ds, [Or, hn], {
                 ngIf: [0, "ngIf"]
@@ -27582,7 +27582,7 @@
             });
 
         function I_(e) {
-            return so(0, [(e()(), Yi(0, 0, null, null, 1, "div", [["id", "wrapper"]], null, null, null, null, null)), (e()(), lo(1, null, [" day: ", " year: ", " ", "\n"]))], null, function (e, t) {
+            return so(0, [(e()(), Yi(0, 0, null, null, 1, "div", [["id", "wrapper"]], null, null, null, null, null)), (e()(), lo(1, null, [" 天: ", " 年: ", " ", "\n"]))], null, function (e, t) {
                 var n = t.component;
                 e(t, 1, 0, n.getDay(), n.getYear(), n.getSeason())
             })
@@ -27957,7 +27957,7 @@
                 links: 1
             }), $l(603979776, 20, {
                 linksWithHrefs: 1
-            }), (e()(), lo(-1, null, ["Royal perks"]))], function (e, t) {
+            }), (e()(), lo(-1, null, ["皇家特权"]))], function (e, t) {
                 var n = t.component;
                 e(t, 3, 0, "/village"), e(t, 4, 0, "active"), e(t, 9, 0, "/resources"), e(t, 10, 0, "active"), e(t, 15, 0, n.isManagementEnabled()), e(t, 17, 0, n.isCraftingEnabled()), e(t, 19, 0, n.isResearchEnabled()), e(t, 21, 0, n.isMarketEnabled()), e(t, 23, 0, n.isArmyEnabled()), e(t, 25, 0, n.isReligionEnabled()), e(t, 27, 0, n.isWeatherEnabled()), e(t, 29, 0, "/royal"), e(t, 30, 0, "active")
             }, function (e, t) {
@@ -28026,7 +28026,7 @@
             }), (e()(), Yi(1, 0, null, null, 9, "div", [["id", "wrapper"]], null, null, null, null, null)), (e()(), Yi(2, 0, null, null, 4, "div", [["class", "title"]], null, null, null, null, null)), (e()(), Yi(3, 0, null, null, 1, "span", [["id", "title-text"]], null, null, null, null, null)), (e()(), lo(-1, null, ["日志"])), (e()(), Yi(5, 0, null, null, 1, "button", [["id", "clear-button"]], null, [[null, "click"]], function (e, t, n) {
                 var r = !0;
                 return "click" === t && (r = !1 !== e.component.clearLogs() && r), r
-            }, null, null)), (e()(), lo(-1, null, ["clear"])), (e()(), Yi(7, 0, [[1, 0], ["scroll", 1]], null, 3, "div", [["id", "log"]], null, null, null, null, null)), (e()(), Yi(8, 0, null, null, 2, "ul", [], null, null, null, null, null)), (e()(), ji(16777216, null, null, 1, null, eI)), Ml(10, 278528, null, 0, Ns, [Or, hn, Br], {
+            }, null, null)), (e()(), lo(-1, null, ["清除"])), (e()(), Yi(7, 0, [[1, 0], ["scroll", 1]], null, 3, "div", [["id", "log"]], null, null, null, null, null)), (e()(), Yi(8, 0, null, null, 2, "ul", [], null, null, null, null, null)), (e()(), ji(16777216, null, null, 1, null, eI)), Ml(10, 278528, null, 0, Ns, [Or, hn, Br], {
                 ngForOf: [0, "ngForOf"]
             }, null)], function (e, t) {
                 e(t, 10, 0, t.component.entries)
