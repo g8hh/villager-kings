@@ -821,15 +821,29 @@ var cnItem = function () {
     return arguments[0];
 };
 
+transTaskMgr = {
+	tasks: [],
+	addTask: function(node, attr, text){this.tasks.push({node,attr,text})},
+	doTask: function(){
+		let task = null;
+		while(task = this.tasks.pop())
+			task.node[task.attr] = task.text;
+	},
+}
+
 function TransSubTextNode(node) {
     if (node.childNodes.length > 0) {
         for (let subnode of node.childNodes) {
             if (subnode.nodeName === "#text") {
-                subnode.textContent = cnItem(subnode.textContent);
+				let text = subnode.textContent;
+				let cnText = cnItem(text);
+                cnText !== text && transTaskMgr.addTask(subnode,'textContent',cnText);
                 //console.log(subnode);
             } else if (subnode.nodeName !== "SCRIPT" && subnode.nodeName !== "TEXTAREA" && subnode.innerHTML && subnode.innerText) {
                 if (subnode.innerHTML === subnode.innerText) {
-                    subnode.innerText = cnItem(subnode.innerText);
+					let text = subnode.innerText;
+					let cnText = cnItem(text);
+					cnText !== text && transTaskMgr.addTask(subnode,'innerText',cnText);
                     //console.log(subnode);
                 } else {
                     TransSubTextNode(subnode);
@@ -853,6 +867,7 @@ function TransSubTextNode(node) {
     let targetNode = document.body;
     //汉化静态页面内容
     TransSubTextNode(targetNode);
+	transTaskMgr.doTask();
     //监听页面变化并汉化动态内容
     let observer = new MutationObserver(function (e) {
 		window.beforeTransTime = performance.now();
@@ -875,6 +890,7 @@ function TransSubTextNode(node) {
                             node.innerText = cnItem(node.innerText);
                         } else {
                             TransSubTextNode(node);
+							transTaskMgr.doTask();
                         }
                     }
                 }
