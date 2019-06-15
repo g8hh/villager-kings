@@ -711,7 +711,7 @@ var cnExcludePostfix = [
 var cnRegReplace = new Map([
 	[/^requires (\d+) more research points$/, '需要$1个研究点'],
 	[/^(\d+) Royal points$/, '$1 皇家点数'],
-	[/^Cost: (\d+)  RP$/, '成本：$1 皇家点数'],
+	[/^Cost: (\d+) RP$/, '成本：$1 皇家点数'],
 	[/^Usages: (\d+)\/$/, '用途：$1\/'],
 	[/^Missing (\d+) Hay!$/, '缺少$1干草！'],
 	[/^Missing (\d+) Food!$/, '缺少$1食物！'],
