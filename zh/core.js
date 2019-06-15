@@ -827,7 +827,7 @@ function TransSubTextNode(node) {
             if (subnode.nodeName === "#text") {
                 subnode.textContent = cnItem(subnode.textContent);
                 //console.log(subnode);
-            } else if (subnode.nodeName !== "SCRIPT" && subnode.innerHTML && subnode.innerText) {
+            } else if (subnode.nodeName !== "SCRIPT" && subnode.nodeName !== "TEXTAREA" && subnode.innerHTML && subnode.innerText) {
                 if (subnode.innerHTML === subnode.innerText) {
                     subnode.innerText = cnItem(subnode.innerText);
                     //console.log(subnode);
@@ -855,9 +855,10 @@ function TransSubTextNode(node) {
     TransSubTextNode(targetNode);
     //监听页面变化并汉化动态内容
     let observer = new MutationObserver(function (e) {
+		window.beforeTransTime = performance.now();
         observer.disconnect();
         for (let mutation of e) {
-            if (mutation.target.nodeName === "SCRIPT") continue;
+            if (mutation.target.nodeName === "SCRIPT" || mutation.target.nodeName === "TEXTAREA") continue;
             if (mutation.target.innerHTML && mutation.target.innerText && mutation.target.innerHTML === mutation.target.innerText) {
                 mutation.target.innerText = cnItem(mutation.target.innerText);
             }
@@ -869,7 +870,7 @@ function TransSubTextNode(node) {
                     if (node.nodeName === "#text") {
                         node.textContent = cnItem(node.textContent);
                         //console.log(node);
-                    } else if (node.nodeName !== "SCRIPT" && node.innerHTML && node.innerText) {
+                    } else if (node.nodeName !== "SCRIPT" && node.nodeName !== "TEXTAREA" && node.innerHTML && node.innerText) {
                         if (node.innerHTML === node.innerText) {
                             node.innerText = cnItem(node.innerText);
                         } else {
@@ -880,6 +881,8 @@ function TransSubTextNode(node) {
             }
         }
         observer.observe(targetNode, observer_config);
+		window.afterTransTime = performance.now();
+		console.log("捕获到页面变化并执行汉化，耗时" + (afterTransTime - beforeTransTime) + "毫秒");
     });
     observer.observe(targetNode, observer_config);
 }();
