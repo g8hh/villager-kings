@@ -768,7 +768,7 @@ var cnItem = function () {
 	//尝试正则替换
 	for(let [key, value] of cnRegReplace.entries()){
 		if(key.test(text)){
-			return str.replace(key,value);
+			return text.replace(key,value);
 		}
 	}
 
