@@ -522,9 +522,10 @@ var cnItems = {
     'workers: 1/': '工人: 1/',
     'working': '工作',
     'yield multiplier': '收益加成',
-    '': '',
-    '': '',
-    '': '',
+    'Temperature: -': '温度: -',
+    'Weather: storm': '天气: 风暴',
+    'Weather: snow': '天气: 下雪',
+    'Weather: sun': '天气: 晴朗',
     '': '',
     '': '',
     '': '',
@@ -705,7 +706,9 @@ var cnExcludePostfix = [
 var cnRegReplace = new Map([
 	[/^requires (\d+) more research points$/, '需要$1个研究点'],
 	[/^Missing (\d+) Hay!$/, '缺少$1干草！'],
-    [/^day: (\d+) year: (\d+) summer↵$/, '日: $1 年: $2 夏天↵'],
+    [/^day: (\d+) year: (\d+) summer\n$/, '日: $1 年: $2 夏天\n'],
+    [/^day: (\d+) year: (\d+) autumn\n$/, '日: $1 年: $2 秋天\n'],
+    [/^day: (\d+) year: (\d+) winter\n$/, '日: $1 年: $2 冬天\n']
     
 ]);
 
