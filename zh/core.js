@@ -860,7 +860,11 @@ function TransSubTextNode(node) {
             if (mutation.target.nodeName === "SCRIPT") continue;
             if (mutation.target.innerHTML && mutation.target.innerText && mutation.target.innerHTML === mutation.target.innerText) {
                 mutation.target.innerText = cnItem(mutation.target.innerText);
-            } else if (mutation.addedNodes.length > 0) {
+            }
+			else if(mutation.target.nodeName === "#text"){
+				mutation.target.textContent = cnItem(mutation.target.textContent);
+			}
+			else if (mutation.addedNodes.length > 0) {
                 for (let node of mutation.addedNodes) {
                     if (node.nodeName === "#text") {
                         node.textContent = cnItem(node.textContent);
