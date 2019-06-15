@@ -705,6 +705,8 @@ var cnExcludePostfix = [
 var cnRegReplace = new Map([
 	[/^requires (\d+) more research points$/, '需要$1个研究点'],
 	[/^Missing (\d+) Hay!$/, '缺少$1干草！'],
+    [/^day: (\d+) year: (\d+) summer↵$/, '日: $1 年: $2 夏天↵'],
+    
 ]);
 
 //2.采集新词
