@@ -823,7 +823,7 @@ function TransSubTextNode(node) {
             if (subnode.nodeName === "#text") {
                 subnode.textContent = cnItem(subnode.textContent);
                 //console.log(subnode);
-            } else if (subnode.nodeName !== "SCRIPT" && subnode.nodeName !== "TEXTAREA" && subnode.innerHTML && subnode.innerText) {
+            } else if (subnode.nodeName !== "SCRIPT" && subnode.innerHTML && subnode.innerText) {
                 if (subnode.innerHTML === subnode.innerText) {
                     subnode.innerText = cnItem(subnode.innerText);
                     //console.log(subnode);
@@ -841,7 +841,7 @@ function TransSubTextNode(node) {
     console.log("加载汉化模块");
 
     let observer_config = {
-        attributes: true,
+        attributes: false,
         characterData: true,
         childList: true,
         subtree: true
@@ -856,13 +856,12 @@ function TransSubTextNode(node) {
             if (mutation.target.nodeName === "SCRIPT") continue;
             if (mutation.target.innerHTML && mutation.target.innerText && mutation.target.innerHTML === mutation.target.innerText) {
                 mutation.target.innerText = cnItem(mutation.target.innerText);
-            } else {
-				if (mutation.addedNodes.length > 0) {
+            } else if (mutation.addedNodes.length > 0) {
                 for (let node of mutation.addedNodes) {
                     if (node.nodeName === "#text") {
                         node.textContent = cnItem(node.textContent);
                         //console.log(node);
-                    } else if (node.nodeName !== "SCRIPT" && node.nodeName !== "TEXTAREA" && node.innerHTML && node.innerText) {
+                    } else if (node.nodeName !== "SCRIPT" && node.innerHTML && node.innerText) {
                         if (node.innerHTML === node.innerText) {
                             node.innerText = cnItem(node.innerText);
                         } else {
@@ -870,11 +869,6 @@ function TransSubTextNode(node) {
                         }
                     }
                 }
-				}
-				//fix ng框架的页面会遗漏节点的问题
-				if(mutation.target) { 
-					TransSubTextNode(mutation.target);
-				}
             }
         }
         observer.observe(targetNode, observer_config);
