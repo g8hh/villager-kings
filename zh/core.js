@@ -717,6 +717,11 @@ var cnExcludePostfix = [
     /:?\s*x?\d+(\.\d+)?[A-Za-z]{0,2}$/, //: 12.34K, x1.5
 ]
 
+//正则替换
+var cnRegReplace = new Map([
+	[/^requires (\d+) more research points$/, '需要$1个研究点'],
+]);
+
 //2.采集新词
 //20190320@JAR
 
@@ -774,6 +779,13 @@ var cnItem = function () {
             return arguments[0];
         }
     }
+	
+	//尝试正则替换
+	for(let [key, value] of cnRegReplace.entries()){
+		if(key.test(text)){
+			return str.replace(key,value);
+		}
+	}
 
     //遍历尝试匹配
     for (let i in cnItems) {
