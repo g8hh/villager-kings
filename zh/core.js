@@ -526,6 +526,7 @@ var cnItems = {
     'Weather: storm': '天气: 风暴',
     'Weather: snow': '天气: 下雪',
     'Weather: sun': '天气: 晴朗',
+    'Weather: wind': '天气: 大风',
     '': '',
     '': '',
     '': '',
