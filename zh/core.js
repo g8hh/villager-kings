@@ -369,21 +369,6 @@ var cnItems = {
     'Stone management': '石头管理',
     'Clothes': '衣服',
     'Plank management': '板材管理',
-    'requires 10 more research points': '需要18个研究点',
-    'requires 11 more research points': '需要11个研究点',
-    'requires 12 more research points': '需要12个研究点',
-    'requires 13 more research points': '需要13个研究点',
-    'requires 14 more research points': '需要14个研究点',
-    'requires 15 more research points': '需要15个研究点',
-    'requires 16 more research points': '需要16个研究点',
-    'requires 17 more research points': '需要17个研究点',
-    'requires 18 more research points': '需要18个研究点',
-    'requires 19 more research points': '需要19个研究点',
-    'requires 20 more research points': '需要20个研究点',
-    'requires 23 more research points': '需要23个研究点',
-    'requires 25 more research points': '需要25个研究点',
-    'requires 30 more research points': '需要30个研究点',
-    'requires 47 more research points': '需要47个研究点',
     'Order queue is full': '订单队列已满',
     'gathering resources': '收集资源',
     'transporting': '运输',
@@ -614,7 +599,6 @@ var cnItems = {
     '': '',
     '': '',
     '': '',
-    '': '',
 
     //更新日志
     'Bug fixes': '修复bug',
@@ -720,6 +704,7 @@ var cnExcludePostfix = [
 //正则替换
 var cnRegReplace = new Map([
 	[/^requires (\d+) more research points$/, '需要$1个研究点'],
+	[/^Missing (\d+) Hay!$/, '缺少$1干草！'],
 ]);
 
 //2.采集新词
