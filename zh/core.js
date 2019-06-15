@@ -870,7 +870,7 @@ function TransSubTextNode(node) {
 	transTaskMgr.doTask();
     //监听页面变化并汉化动态内容
     let observer = new MutationObserver(function (e) {
-		window.beforeTransTime = performance.now();
+		//window.beforeTransTime = performance.now();
         observer.disconnect();
         for (let mutation of e) {
             if (mutation.target.nodeName === "SCRIPT" || mutation.target.nodeName === "TEXTAREA") continue;
@@ -897,8 +897,8 @@ function TransSubTextNode(node) {
             }
         }
         observer.observe(targetNode, observer_config);
-		window.afterTransTime = performance.now();
-		console.log("捕获到页面变化并执行汉化，耗时" + (afterTransTime - beforeTransTime) + "毫秒");
+		//window.afterTransTime = performance.now();
+		//console.log("捕获到页面变化并执行汉化，耗时" + (afterTransTime - beforeTransTime) + "毫秒");
     });
     observer.observe(targetNode, observer_config);
 }();
