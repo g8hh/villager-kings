@@ -776,7 +776,6 @@ var cnRegReplace = new Map([
     [/^day: (\d+) year: (\d+) autumn\n$/, '日: $1 年: $2 秋天\n'],
     [/^day: (\d+) year: (\d+) winter\n$/, '日: $1 年: $2 冬天\n'],
 	[/^Incoming attack in (\d+) days!$/, '$1天内将受到攻击!'],
-	[/^Research points: (\d+)\/$/, '研究点: $1\/'],
     
 ]);
 
