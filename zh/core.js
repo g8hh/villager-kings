@@ -357,7 +357,7 @@ var cnItems = {
     'Cut Stone': '石材',
     'Difficulty': '困难',
     'Leather': '皮革',
-    'Orders': '订单',
+    'Orders': '队列',
     'OTHER': '其它',
     'Plank': '板材',
     'Recipes': '配方',
@@ -379,7 +379,7 @@ var cnItems = {
     'Stone management': '石头管理',
     'Clothes': '衣服',
     'Plank management': '板材管理',
-    'Order queue is full': '订单队列已满',
+    'Order queue is full': '制作队列已满',
     'gathering resources': '收集资源',
     'transporting': '运输',
     'gather food': '收集食物',
@@ -591,9 +591,9 @@ var cnItems = {
     'constructing Warehouse': '仓库建设中',
     'built in year': '建造年代',
     'abdicate': '退位',
-    '': '',
-    '': '',
-    '': '',
+    'New Year!': '新年快乐！',
+    'Bigger fire researched': '更大的火已研究',
+    'There are less than 500 trees in the forest!': '森林里的树木不到500棵了！',
     '': '',
     '': '',
     '': '',
@@ -776,6 +776,7 @@ var cnRegReplace = new Map([
     [/^day: (\d+) year: (\d+) autumn\n$/, '日: $1 年: $2 秋天\n'],
     [/^day: (\d+) year: (\d+) winter\n$/, '日: $1 年: $2 冬天\n'],
 	[/^Incoming attack in (\d+) days!$/, '$1天内将受到攻击!'],
+//	[/^Research points: (\d+)\/$/, '研究点: $1\/'],
     
 ]);
 
