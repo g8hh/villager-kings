@@ -143,29 +143,49 @@ var cnItems = {
     'Are you sure you want to unlock researching Sawmill?': '你确定你要解锁研究锯木厂？',
     'Could we use dead animals fur in our advantage?': '我们能否利用死去的动物皮毛？',
     'Would it boost our moods if we took some time to have fun??': '如果我们花一些时间玩得开心会增强我们的情绪吗？',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
+    'Mathematics not researched!': '数学未研究！',
+    'Mining not researched!': '矿业未研究！',
+    'Agriculture researched': '农业已研究',
+    'Bow researched': '弓箭已研究',
+    'Church unlocked': '教堂已解锁',
+    'Cotton planting unlocked': '棉花种植解锁',
+    'Cotton researched': '棉花已解锁',
+    'Farm invented': '农场已发明',
+    'Field unlocked': '农田已解锁',
+    'Fire researched': '火已解锁',
+    'Fisher\'s hut invented': '渔民小屋已发明',
+    'Fishing researched': '钓鱼已研究',
+    'Foresight level increased': '预见等级提高',
+    'Foresight researched': '预见已研究',
+    'Forest management unlocked': '森林管理已解锁',
+    'Forester invented': '护林员已发明',
+    'Forestry researched': '林业已研究',
+    'Human resources invented': '人力资源已发明',
+    'Mathematics researched': '数学已研究',
+    'Mathematics will permanently affect Construction with +10% of its base power': '数学将永久影响建筑，其基础能力为+ 10％',
+    'Mortar researched': '砂浆已研究',
+    'New King will affect all buildings with +100% of their base power for 0 days': '新国王将影响所有建筑物，其基础能力为+ 100％，持续0天',
+    'New research projects unlocked': '新的研究项目已解锁',
+    'New resource discovered: Copper': '发现新资源：铜',
+    'New resource discovered: Cut stone': '发现新资源：石材',
+    'New resource discovered: Wheat': '发现新资源：小麦',
+    'Scientific method researched': '科学方法已研究',
+    'Sea unlocked': '海洋已解锁',
+    'Shrine unlocked': '神社解锁',
+    'Stone shovel researched': '石铲已研究',
+    'Urban planning researched': '城市规划已研究',
+    'We now can predict weather': '我们现在可以预测天气',
+    'Weather researched': '天气已研究',
+    'You can always start it again from the top right settings menu': '您可以从右上角的设置菜单重新打开它',
+    'today': '今天',
+    'Weather forecast': '天气预报',
+    'Stone spear not researched!': '石矛没有研究!',
+    'Stone pickaxe not researched!': '石镐没有研究!',
+    'Stone hammer not researched!': '石锤没有研究!',
+    'Stone axe not researched!': '石斧没有研究!',
+    'Hunting not researched!': '狩猎没有研究!',
+    'Could we use wind to do hard work for us?': '我们能利用风为我们做艰苦的工作吗?',
+    'Cooking not researched!': '烹饪没有研究!',
     '': '',
     '': '',
     '': '',
@@ -596,6 +616,78 @@ var cnItems = {
     'There are less than 500 trees in the forest!': '森林里的树木不到500棵了！',
     'Automated work management available in management tab': '管理选项卡中提供自动化工作管理',
     'Human resources researched': '人力资源已研究',
+    'Are you sure you want to skip tutorial?': '您确定要跳过教程吗?',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
     '': '',
     '': '',
     '': '',
@@ -762,6 +854,8 @@ var cnRegReplace = new Map([
 	[/^Missing (\d+) Stone!$/, '缺少$1石头！'],
 	[/^Missing (\d+) Plank!$/, '缺少$1板材！'],
 	[/^Missing (\d+) Coins!$/, '缺少$1硬币！'],
+	[/^Missing (\d+) Cotton!$/, '缺少$1棉花！'],
+	[/^Missing (\d+) Log!$/, '缺少$1木头！'],
 	[/^Missing (\d+) Stone spear!$/, '缺少$1石矛！'],
 	[/^Missing (\d+) Fur!$/, '缺少$1毛皮！'],
 	[/^Missing (\d+) Stone axe!$/, '缺少$1石斧！'],
@@ -777,7 +871,7 @@ var cnRegReplace = new Map([
     [/^day: (\d+) year: (\d+) winter\n$/, '日: $1 年: $2 冬天\n'],
 	[/^Incoming attack in (\d+) days!$/, '$1天内将受到攻击!'],
 //	[/^Research points: (\d+)\/$/, '研究点: $1\/'],
-    
+
 ]);
 
 //2.采集新词
@@ -837,13 +931,13 @@ var cnItem = function () {
             return arguments[0];
         }
     }
-	
-	//尝试正则替换
-	for(let [key, value] of cnRegReplace.entries()){
-		if(key.test(text)){
-			return text_prefix + text.replace(key,value) + text_reg_exclude_postfix + text_postfix;
-		}
-	}
+
+    //尝试正则替换
+    for (let [key, value] of cnRegReplace.entries()) {
+        if (key.test(text)) {
+            return text_prefix + text.replace(key, value) + text_reg_exclude_postfix + text_postfix;
+        }
+    }
 
     //遍历尝试匹配
     for (let i in cnItems) {
@@ -889,28 +983,34 @@ var cnItem = function () {
 };
 
 transTaskMgr = {
-	tasks: [],
-	addTask: function(node, attr, text){this.tasks.push({node,attr,text})},
-	doTask: function(){
-		let task = null;
-		while(task = this.tasks.pop())
-			task.node[task.attr] = task.text;
-	},
+    tasks: [],
+    addTask: function (node, attr, text) {
+        this.tasks.push({
+            node,
+            attr,
+            text
+        })
+    },
+    doTask: function () {
+        let task = null;
+        while (task = this.tasks.pop())
+            task.node[task.attr] = task.text;
+    },
 }
 
 function TransSubTextNode(node) {
     if (node.childNodes.length > 0) {
         for (let subnode of node.childNodes) {
             if (subnode.nodeName === "#text") {
-				let text = subnode.textContent;
-				let cnText = cnItem(text);
-                cnText !== text && transTaskMgr.addTask(subnode,'textContent',cnText);
+                let text = subnode.textContent;
+                let cnText = cnItem(text);
+                cnText !== text && transTaskMgr.addTask(subnode, 'textContent', cnText);
                 //console.log(subnode);
             } else if (subnode.nodeName !== "SCRIPT" && subnode.nodeName !== "TEXTAREA" && subnode.innerHTML && subnode.innerText) {
                 if (subnode.innerHTML === subnode.innerText) {
-					let text = subnode.innerText;
-					let cnText = cnItem(text);
-					cnText !== text && transTaskMgr.addTask(subnode,'innerText',cnText);
+                    let text = subnode.innerText;
+                    let cnText = cnItem(text);
+                    cnText !== text && transTaskMgr.addTask(subnode, 'innerText', cnText);
                     //console.log(subnode);
                 } else {
                     TransSubTextNode(subnode);
@@ -934,20 +1034,18 @@ function TransSubTextNode(node) {
     let targetNode = document.body;
     //汉化静态页面内容
     TransSubTextNode(targetNode);
-	transTaskMgr.doTask();
+    transTaskMgr.doTask();
     //监听页面变化并汉化动态内容
     let observer = new MutationObserver(function (e) {
-		//window.beforeTransTime = performance.now();
+        //window.beforeTransTime = performance.now();
         observer.disconnect();
         for (let mutation of e) {
             if (mutation.target.nodeName === "SCRIPT" || mutation.target.nodeName === "TEXTAREA") continue;
             if (mutation.target.innerHTML && mutation.target.innerText && mutation.target.innerHTML === mutation.target.innerText) {
                 mutation.target.innerText = cnItem(mutation.target.innerText);
-            }
-			else if(mutation.target.nodeName === "#text"){
-				mutation.target.textContent = cnItem(mutation.target.textContent);
-			}
-			else if (mutation.addedNodes.length > 0) {
+            } else if (mutation.target.nodeName === "#text") {
+                mutation.target.textContent = cnItem(mutation.target.textContent);
+            } else if (mutation.addedNodes.length > 0) {
                 for (let node of mutation.addedNodes) {
                     if (node.nodeName === "#text") {
                         node.textContent = cnItem(node.textContent);
@@ -957,15 +1055,15 @@ function TransSubTextNode(node) {
                             node.innerText = cnItem(node.innerText);
                         } else {
                             TransSubTextNode(node);
-							transTaskMgr.doTask();
+                            transTaskMgr.doTask();
                         }
                     }
                 }
             }
         }
         observer.observe(targetNode, observer_config);
-		//window.afterTransTime = performance.now();
-		//console.log("捕获到页面变化并执行汉化，耗时" + (afterTransTime - beforeTransTime) + "毫秒");
+        //window.afterTransTime = performance.now();
+        //console.log("捕获到页面变化并执行汉化，耗时" + (afterTransTime - beforeTransTime) + "毫秒");
     });
     observer.observe(targetNode, observer_config);
 }();
