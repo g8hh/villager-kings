@@ -841,7 +841,7 @@ var cnItem = function () {
 	//尝试正则替换
 	for(let [key, value] of cnRegReplace.entries()){
 		if(key.test(text)){
-			return text.replace(key,value);
+			return text_prefix + text.replace(key,value) + text_reg_exclude_postfix + text_postfix;
 		}
 	}
 
