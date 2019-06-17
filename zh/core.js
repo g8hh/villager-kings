@@ -617,7 +617,7 @@ var cnItems = {
     'Automated work management available in management tab': '管理选项卡中提供自动化工作管理',
     'Human resources researched': '人力资源已研究',
     'Are you sure you want to skip tutorial?': '您确定要跳过教程吗?',
-    '': '',
+    'heating fuel: -': '加热燃料: -',
     '': '',
     '': '',
     '': '',
