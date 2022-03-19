@@ -1829,6 +1829,7 @@ var cnItems = {
     "Sea plunder": "海上掠夺",
     "Treasure": "宝藏",
     "Whirlpool": "漩涡",
+    "Pirates base": "海盗基地",
     "": "",
     "": "",
     "": "",
