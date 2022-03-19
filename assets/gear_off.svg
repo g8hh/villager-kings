@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+     width="96" height="96" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <mask id="hole">
+      <rect width="100%" height="100%" fill="white"/>
+      <circle r="16" cx="50" cy="50" fill="black"/>
+    </mask>
+    <g id="tooth"><polygon points="0,0 15,0 13,12 2,12" fill="black"/></g>
+
+  </defs>
+  <g transform="translate(-2 -2)">
+    <circle r="35" cx="50" cy="50" mask="url(#hole)" />
+    <g transform="translate(58 16)"><use xlink:href="#tooth" transform="rotate(180)"/></g>
+    <g transform="translate(79 32)"><use xlink:href="#tooth" transform="rotate(225)"/></g>
+    <g transform="translate(84 58)"><use xlink:href="#tooth" transform="rotate(270)"/></g>
+    <g transform="translate(69 79)"><use xlink:href="#tooth" transform="rotate(315)"/></g>
+    <g transform="translate(42 84)"><use xlink:href="#tooth"/></g>
+    <g transform="translate(21 69)"><use xlink:href="#tooth" transform="rotate(45)"/></g>
+    <g transform="translate(16 42)"><use xlink:href="#tooth" transform="rotate(90)"/></g>
+    <g transform="translate(32 21)"><use xlink:href="#tooth" transform="rotate(135)"/></g>
+    <line x1="5" y1="5" x2="95" y2="95" style="stroke:rgb(139,0,0);stroke-width:6" />
+    <line x1="95" y1="5" x2="5" y2="95" style="stroke:rgb(139,0,0);stroke-width:6" />
+  </g>
+
+</svg>
+
