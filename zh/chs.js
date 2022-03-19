@@ -1838,7 +1838,7 @@ var cnItems = {
     "Upgraded Angular version 8->": "升级 Angular 版本 8->",
     "Place of prayer and contemplation": "祈祷和沉思的地方",
     "Small group of refugees came to your village": "一小群难民来到你的村庄",
-    "": "",
+    "A meteoroid has fallen somewhere in the mountains": "一颗流星坠落在山上的某个地方",
     "": "",
     "": "",
     "": "",
