@@ -1883,6 +1883,7 @@ var cnRegReplace = new Map([
     [/^Research queue \((\d+)\/(\d+)\):(.+)$/, '研究队列 \($1\/$2\):$3'],
     [/^Average daily production(.+)$/, '平均日产量$1'],
     [/^requires (\d+) more research points$/, '需要$1个研究点'],
+	[/^You have caught a golden fish. You let it go and it granted you (.+) Royal Points$/, '你钓到了一条金鱼。 你放生了它，你获得了 $1 皇家点数'],
 	[/^(\d+) Royal points$/, '$1 皇家点数'],
 	[/^Cost: (\d+) RP$/, '成本：$1 皇家点数'],
 	[/^Herbalism: (\d+)\/$/, '草药学：$1\/'],
