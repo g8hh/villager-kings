@@ -7,22 +7,80 @@
     <base href="./">
     <script src='kongregate_api.js'></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.49436ff4461cce6d6eb8.css">
+
+        <style>
+            @font-face {
+                font-family: MedievalSharp;
+                src: url(MedievalSharp.d488fea49d91dd1538bb.ttf);
+            }
+
+            #VillagerKings {
+                --passive-colour: #a58659;
+                --active-colour: #8c6d46;
+                --background-clour: #bead79;
+                --negative-colour: darkred;
+                --positive-colour: #006400;
+            }
+
+            body,html {
+                font-size: 1em;
+                position: relative;
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+                width: 100vw;
+                min-height: 750px;
+                min-width: 1000px;
+            }
+
+            @media screen and (min-width : 0px) and (max-width : 1200px) {
+                body,html {
+                    font-size:1em;
+                }
+            }
+
+            @media screen and (min-width : 1200px) and (max-width: 1500px) {
+                body,html {
+                    font-size:1.05em;
+                }
+            }
+
+            @media screen and (min-width : 1500px) {
+                body,html {
+                    font-size:1.1em;
+                }
+            }
+
+            * {
+                font-family: MedievalSharp;
+                outline: none;
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                overscroll-behavior-y: none;
+            }
+        </style>
+        <link rel="stylesheet" href="styles.2408c5aebe4ba07e8c2f.css" media="print" onload="this.media='all'">
+        <noscript>
+            <link rel="stylesheet" href="styles.2408c5aebe4ba07e8c2f.css">
+        </noscript>
 </head>
 
 <body id="VillagerKings">
 <script src="zh/chs.js"></script>
 <script src="zh/core.js"></script>
-    <div style="text-align: center;margin: 10px auto;">
+    <!-- <div style="text-align: center;margin: 10px auto;">
       本游戏不能直接刷新页面，如要刷新，请点击：<a style="color: red;" href='https://g8hh.github.io/villager-kings'>刷新游戏</a>
-  </div>
+  </div> -->
     <app-root></app-root>
-    <script src="runtime-es2015.409e6590615fb48d139f.js" type="module"></script>
-    <script src="runtime-es5.409e6590615fb48d139f.js" nomodule defer></script>
-    <script src="polyfills-es5.18cc37d8bc075a58fbf7.js" nomodule defer></script>
-    <script src="polyfills-es2015.f09298519693d96a6682.js" type="module"></script>
-    <script src="main-es2015.0fbc92f2f0512e88755f.js" type="module"></script>
-    <script src="main-es5.0fbc92f2f0512e88755f.js" nomodule defer></script>
+        <script src="runtime-es2015.141e7dcb76d42fcff662.js" type="module"></script>
+        <script src="runtime-es5.141e7dcb76d42fcff662.js" nomodule defer></script>
+        <script src="polyfills-es5.53aa087276dc631022cb.js" nomodule defer></script>
+        <script src="polyfills-es2015.67d0b04c515b1da6814b.js" type="module"></script>
+        <script src="main-es2015.adde7613da033a020a15.js" type="module"></script>
+        <script src="main-es5.adde7613da033a020a15.js" nomodule defer></script>
 </body>
 
 </html>
