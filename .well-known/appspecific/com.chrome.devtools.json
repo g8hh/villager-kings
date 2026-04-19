@@ -1,0 +1,12 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Villager Kings</title>
+  <base href="./">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>@font-face{font-family:MedievalSharp;src:url(MedievalSharp.d488fea49d91dd1538bb.ttf);}#VillagerKings{--passive-colour:#a58659;--active-colour:#8c6d46;--background-clour:#bead79;--negative-colour:darkred;--positive-colour:#006400;}body,html{font-size:1em;position:relative;margin:0;padding:0;height:100vh;width:100vw;min-height:750px;min-width:1000px;}@media screen and (min-width : 0px) and (max-width : 1200px){body,html{font-size:1em;}}@media screen and (min-width : 1200px) and (max-width: 1500px){body,html{font-size:1.05em;}}@media screen and (min-width : 1500px){body,html{font-size:1.1em;}}*{font-family:MedievalSharp;outline:none;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;overscroll-behavior-y:none;}</style><link rel="stylesheet" href="styles.2408c5aebe4ba07e8c2f.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.2408c5aebe4ba07e8c2f.css"></noscript></head>
+<body id="VillagerKings">
+  <app-root></app-root>
+<script src="runtime-es2015.141e7dcb76d42fcff662.js" type="module"></script><script src="runtime-es5.141e7dcb76d42fcff662.js" nomodule defer></script><script src="polyfills-es5.53aa087276dc631022cb.js" nomodule defer></script><script src="polyfills-es2015.67d0b04c515b1da6814b.js" type="module"></script><script src="main-es2015.adde7613da033a020a15.js" type="module"></script><script src="main-es5.adde7613da033a020a15.js" nomodule defer></script>
+
+
+</body></html>
